@@ -1,0 +1,107 @@
+*
+{
+    box-sizing: border-box;
+}
+main{
+    background-color: rgb(40, 113, 162);
+    display: flex;
+    justify-content: space-between;
+    top:0px;
+    position:sticky;
+    padding: 20px;
+
+
+}
+main a{
+    
+ 
+    text-decoration: none;
+    
+}
+main ul li
+{
+    
+    list-style-type: none;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 3s ease;
+    
+}
+main ul{
+    display: flex;
+    gap:10px
+}
+main ul li:hover
+{
+    background-color: rgb(69, 170, 207);
+    transform: scale(1.5);
+    
+}
+
+
+ h2
+{
+    display: flex;
+    justify-content: center;
+    font-family: ABeeZee, sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    color: rgb(25, 178, 209);
+    text-transform: uppercase;
+    font-style: italic;
+    text-decoration: underline;
+    line-height: 3em;
+   letter-spacing: -0.1px;
+} 
+.ni
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left:180px ;
+    padding-right: 80px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: rgb(41, 176, 176);
+    
+}
+.ni p
+{
+    display: inline;
+}
+#about p
+{
+    background-color: darkcyan;
+    padding: 40px;
+}
+#proj ul
+{
+    background-color:rgb(206, 62, 206);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+
+}
+#con p{
+    background-color:lightskyblue;
+    padding: 30px;
+}
+#home p
+{
+    font-family: ABeeZee, sans-serif;
+    font-size: 29px;
+    font-weight: 900;
+    color: rgba(222, 20, 20, 1);
+    text-transform: none;
+    font-style: italic;
+    text-decoration: none;
+    line-height: 1.2em;
+    letter-spacing: -0.1px;
+}
+.dark
+{
+    background-color: black;
+    color: white;
+}
